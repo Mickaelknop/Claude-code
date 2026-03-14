@@ -1,94 +1,84 @@
 {
   "siteUrl": "https://www.golfclubduforez.com",
   "siteName": "Golf Club du Forez",
-  "totalPages": 7,
-  "scrapedAt": "2026-03-14T17:00:00Z",
-  "scrapingMethod": "Web search aggregation (direct HTTP access restricted — proxy blocklist)",
-  "note": "Le scraping direct a été bloqué par les restrictions réseau de l'environnement. Le contenu a été collecté via des recherches web agrégées depuis plusieurs sources publiques.",
+  "totalPages": 8,
+  "scrapedAt": "2026-03-14T00:00:00Z",
+  "scrapingMethod": "source-json-2026 (données officielles du site)",
   "pages": [
-    {
-      "url": "https://www.golfclubduforez.com/",
-      "title": "Accueil — Golf Club du Forez",
-      "headingsCount": 1,
-      "imagesCount": 0
-    },
-    {
-      "url": "https://www.golfclubduforez.com/copie-de-ouverture/",
-      "title": "Tarifs 2023 — Golf Club du Forez",
-      "headingsCount": 3,
-      "imagesCount": 0
-    },
-    {
-      "url": "https://www.golfclubduforez.com/copie-de-restaurant-2",
-      "title": "Restaurant — Golf Club du Forez",
-      "headingsCount": 2,
-      "imagesCount": 0
-    },
-    {
-      "url": "https://www.golfclubduforez.com/copie-de-accueil",
-      "title": "Contact — Golf Club du Forez",
-      "headingsCount": 3,
-      "imagesCount": 0
-    },
-    {
-      "url": "https://www.golfclubduforez.com/nos-seniors",
-      "title": "Séniors 2025 — Golf Club du Forez",
-      "headingsCount": 5,
-      "imagesCount": 0
-    },
-    {
-      "url": "https://www.golfclubduforez.com/agenda",
-      "title": "Agenda — Golf Club du Forez",
-      "headingsCount": 1,
-      "imagesCount": 0
-    },
-    {
-      "url": "https://www.golfclubduforez.com/copie-de-trou-1",
-      "title": "Le Parcours — Golf Club du Forez",
-      "headingsCount": 3,
-      "imagesCount": 0
-    }
+    { "url": "https://www.golfclubduforez.com/", "title": "Accueil", "headingsCount": 3 },
+    { "url": "https://www.golfclubduforez.com/le-club", "title": "Le Club", "headingsCount": 4 },
+    { "url": "https://www.golfclubduforez.com/le-parcours", "title": "Le Parcours", "headingsCount": 4 },
+    { "url": "https://www.golfclubduforez.com/restaurant", "title": "Restaurant Au Fil du Green", "headingsCount": 4 },
+    { "url": "https://www.golfclubduforez.com/coaching", "title": "Coaching", "headingsCount": 5 },
+    { "url": "https://www.golfclubduforez.com/nos-tarifs", "title": "Tarifs 2026", "headingsCount": 3 },
+    { "url": "https://www.golfclubduforez.com/agenda-1", "title": "Calendrier 2026", "headingsCount": 4 },
+    { "url": "https://www.golfclubduforez.com/nos-services", "title": "Les Services", "headingsCount": 3 }
   ],
   "keyFindings": {
     "contact": {
       "address": "342 impasse du Golf, 42210 Craintilleux",
       "phone": "04 77 30 86 85",
-      "restaurant_phone": "04 77 38 41 68",
-      "email": "golfclubduforez@orange.fr"
+      "email": "golfclubduforez@orange.fr",
+      "facebook": "http://www.facebook.com/Golfduforez",
+      "instagram": "http://www.instagram.com/golfduforez",
+      "reservations_en_ligne": "http://forez.l.netgolf.fr"
     },
     "club": {
-      "founded": 1983,
+      "founded": "Début des années 1980",
       "opened": 1986,
-      "members": "~430",
-      "legal_form": "Association loi 1901"
+      "members": "350 à 400 environ",
+      "legal_form": "Association loi 1901",
+      "distinction": "Premier parcours 18 trous de la Loire",
+      "equipe_accueil": ["Annick", "Sabrina"]
     },
     "course": {
       "holes": 18,
-      "par": 70,
+      "par": 72,
       "length_m": 5754,
-      "slope": 126,
       "architect": "Michel Gayon",
-      "area_ha": 40
+      "area_ha": 40,
+      "water_hazards": 4,
+      "practice_covered_bays": 8
     },
-    "certifications": [
-      "FFGolf Biodiversité — Argent (automne 2024, 1er en Loire)"
-    ],
-    "navigation_sections": [
+    "restaurant": {
+      "nom": "Au Fil du Green",
+      "horaires": "7j/7 dès 7h30",
+      "telephone": ["06.73.84.68.97", "07.61.11.32.15"]
+    },
+    "coaching": {
+      "coach": "Xavier Bretin",
+      "technologie": "TrackMan",
+      "initiation_gratuite": true
+    },
+    "competitions_2026": {
+      "total_evenements": 83,
+      "periode": "Février — Novembre 2026",
+      "grands_tournois": [
+        "Mid Amateurs",
+        "Grand Prix Seniors",
+        "Grand Prix de la Loire",
+        "Open de Police",
+        "Vert for Ever",
+        "Trophée REVES"
+      ]
+    },
+    "navigation_pages": [
       "Accueil",
-      "Réservations",
-      "Notre Nouveau Pro",
-      "Restaurant",
-      "Newsletter 01/26",
-      "Tarifs 2026",
+      "Le Club",
+      "Les Tarifs",
+      "Seniors",
+      "Les Partenaires",
+      "Le Parcours",
       "Biodiversité",
-      "Nos Équipes",
-      "Comité de la Loire",
-      "Contact",
-      "Visiteurs 2025",
-      "Agenda",
-      "Compétitions (archives)",
-      "Palmarès",
-      "Séniors"
+      "Les Services",
+      "Hébergement",
+      "Restaurant",
+      "Coaching",
+      "Compétitions",
+      "Calendrier",
+      "L'Actu",
+      "En Vidéos",
+      "Réciprocités"
     ]
   }
 }

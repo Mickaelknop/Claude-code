@@ -2,227 +2,219 @@
   "site": {
     "name": "Golf Club du Forez",
     "url": "https://www.golfclubduforez.com",
-    "scrapedAt": "2026-03-14T17:00:00Z",
-    "scrapingMethod": "Web search aggregation (direct HTTP access restricted in environment)",
+    "scrapedAt": "2026-03-14T00:00:00Z",
+    "scrapingMethod": "source-json-2026 (données officielles du site)",
     "sources": [
       "https://www.golfclubduforez.com/",
-      "https://www.golfstars.com/golf/golf-club-du-forez",
-      "https://www.cgolf.fr/detail/golf-club-du-forez-craintilleux-42210",
-      "https://lecoingolf.fr/parcours-de-golf/golf-club-du-forez/",
-      "https://www.ffgolf.org/parcours-detours/guide-des-golfs/golf-club-du-forez",
-      "https://www.craintilleux.fr/fr/association/1/3344/golf-club-forez"
+      "https://www.golfclubduforez.com/le-club",
+      "https://www.golfclubduforez.com/le-parcours",
+      "https://www.golfclubduforez.com/restaurant",
+      "https://www.golfclubduforez.com/coaching",
+      "https://www.golfclubduforez.com/nos-tarifs",
+      "https://www.golfclubduforez.com/agenda-1",
+      "https://www.golfclubduforez.com/nos-services"
     ]
   },
   "contact": {
     "address": "342 impasse du Golf, 42210 Craintilleux",
     "phone": "04 77 30 86 85",
-    "restaurant_phone": "04 77 38 41 68",
     "email": "golfclubduforez@orange.fr",
-    "hours_secretariat": "8h30 - 17h",
-    "hours_contact_page": "8h30 - 18h30"
+    "restaurant_phone_1": "06.73.84.68.97",
+    "restaurant_phone_2": "07.61.11.32.15",
+    "facebook": "http://www.facebook.com/Golfduforez",
+    "instagram": "http://www.instagram.com/golfduforez",
+    "reservations_en_ligne": "http://forez.l.netgolf.fr"
   },
   "navigation": [
-    { "label": "Accueil", "url": "/" },
-    { "label": "Réservations", "url": "/reservations" },
-    { "label": "Notre Nouveau Pro", "url": "/notre-pro" },
-    { "label": "Restaurant", "url": "/copie-de-restaurant-2" },
-    { "label": "Newsletter 01/26", "url": "/newsletter" },
-    { "label": "Tarifs 2026", "url": "/tarifs" },
-    { "label": "Biodiversité", "url": "/biodiversite" },
-    { "label": "Nos Équipes", "url": "/nos-equipes" },
-    { "label": "Comité de la Loire", "url": "/comite-loire" },
-    { "label": "Contact", "url": "/copie-de-accueil" },
-    { "label": "Visiteurs 2025", "url": "/visiteurs" },
-    { "label": "Archives — Compétitions 2024", "url": "/competitions-2024" },
-    { "label": "Archives — Compétitions 2023", "url": "/competitions-2023" },
-    { "label": "Palmarès", "url": "/palmares" },
-    { "label": "Archives — News", "url": "/news" },
-    { "label": "Archives — Séniors 2022", "url": "/nos-seniors" },
-    { "label": "Agenda", "url": "/agenda" }
+    {
+      "label": "Accueil",
+      "url": "https://www.golfclubduforez.com"
+    },
+    {
+      "label": "Le Club",
+      "url": "https://www.golfclubduforez.com/le-club",
+      "sous_pages": [
+        { "label": "Les Tarifs", "url": "https://www.golfclubduforez.com/nos-tarifs" },
+        { "label": "Seniors", "url": "https://www.golfclubduforez.com/seniors" },
+        { "label": "Les Partenaires", "url": "https://www.golfclubduforez.com/nos-partenaires" }
+      ]
+    },
+    {
+      "label": "Le Parcours",
+      "url": "https://www.golfclubduforez.com/le-parcours",
+      "sous_pages": [
+        { "label": "Biodiversité", "url": "https://www.golfclubduforez.com/biodiversit%C3%A9" }
+      ]
+    },
+    {
+      "label": "Les Services",
+      "url": "https://www.golfclubduforez.com/nos-services",
+      "sous_pages": [
+        { "label": "Hébergement", "url": "https://www.golfclubduforez.com/hebergement" }
+      ]
+    },
+    { "label": "Restaurant", "url": "https://www.golfclubduforez.com/restaurant" },
+    { "label": "Coaching", "url": "https://www.golfclubduforez.com/coaching" },
+    {
+      "label": "Compétitions",
+      "url": "https://www.golfclubduforez.com/competitions",
+      "sous_pages": [
+        { "label": "Calendrier", "url": "https://www.golfclubduforez.com/agenda-1" }
+      ]
+    },
+    { "label": "L'Actu", "url": "https://www.golfclubduforez.com/l-actu" },
+    { "label": "En Vidéos", "url": "https://www.golfclubduforez.com/videos-a" },
+    { "label": "Réciprocités", "url": "https://www.golfclubduforez.com/terms-conditions" }
   ],
   "pages": {
     "home": {
       "title": "Accueil — Golf Club du Forez",
       "url": "https://www.golfclubduforez.com/",
-      "description": "Golf Club du Forez — Parcours 18 trous à Craintilleux (Loire 42), à 25 km de Saint-Étienne et 60 km de Lyon.",
-      "key_messages": [
-        "Premier golf du département de la Loire (42) certifié FFGolf Biodiversité Argent (automne 2024)",
-        "Environ 430 membres — club convivial à taille humaine",
-        "Parcours 18 trous dessiné par Michel Gayon sur 40 hectares",
-        "Club fondé en 1983, parcours ouvert en 1986"
+      "description": "Au cœur d'un environnement naturel préservé, le Golf du Forez vous accueille dans un cadre d'exception où passion, convivialité et performance se rencontrent.",
+      "equipe_accueil": ["Annick", "Sabrina"],
+      "avis_google": [
+        { "auteur": "Lionel Lebars", "avis": "Joli parcours plat avec des trous intéressants. Beaux greens et un cadre superbe avec les monts du Forez en vue panoramique." },
+        { "auteur": "Stéphane Lecante", "avis": "Les greens sont bien tenus. À noter, quelques par 4 bien longs qui vous demanderont un second coup solide." },
+        { "auteur": "Annette Pouzol", "avis": "Personnel aimable. Golf bien entretenu. Nombreux tapis de practice couverts." },
+        { "auteur": "Coco Lulu", "avis": "J'ai aimé le Club house, le restaurant, l'accueil et l'ambiance... Chose qu'on ne trouve pas partout." },
+        { "auteur": "Maxime Besse", "avis": "Tout le personnel est souriant, prêt à tout pour nous faire passer un bon moment. La cuisine du restaurant est top." }
       ]
     },
-    "parcours": {
+    "le_club": {
+      "title": "Le Club",
+      "url": "https://www.golfclubduforez.com/le-club",
+      "histoire": {
+        "creation": "Début des années 1980",
+        "localisation": "Plaine du Forez, Loire, à environ 25 km de Saint-Étienne",
+        "superficie": "Environ 40 hectares",
+        "distinction": "Premier parcours 18 trous de la Loire",
+        "architecte": "Michel Gayon",
+        "ouverture": "1986",
+        "statut_juridique": "Association loi 1901"
+      },
+      "aujourd_hui": {
+        "nombre_membres": "350 à 400 environ",
+        "club_house_equipements": ["Bar convivial", "Restaurant sur place", "Terrasse ombragée", "Pro-shop"],
+        "comite_de_direction": "Comité directeur élu, organisant la vie associative, les compétitions et la gestion du club."
+      }
+    },
+    "le_parcours": {
       "title": "Le Parcours",
-      "url": "https://www.golfclubduforez.com/copie-de-trou-1",
-      "description": "Parcours 18 trous de plaine très diversifié sur 40 hectares dans la plaine du Forez",
+      "url": "https://www.golfclubduforez.com/le-parcours",
+      "description": "Le golf le plus apprécié de la Loire (42)",
       "specs": {
         "architect": "Michel Gayon",
         "holes": 18,
-        "par": 70,
+        "par": 72,
         "length_meters": 5754,
-        "slope": 126,
         "area_hectares": 40,
-        "year_founded": 1983,
         "year_opened": 1986
       },
-      "features": [
-        "Plus de 5 000 arbres et arbustes plantés",
-        "4 étangs agrémentant 7 trous",
-        "Tous les greens sont surélevés",
-        "9 trous très techniques + 9 trous plus larges",
-        "Nombreux bunkers, buttes et plantations",
-        "Hors-limites proches des fairways",
-        "Obstacles d'eau et rivières présents sur tout le parcours",
-        "Fairways assez larges — idéaux pour les gros frappeurs"
+      "caracteristiques": [
+        "Greens surélevés apportant une difficulté supplémentaire",
+        "4 pièces d'eau",
+        "Nombreux bunkers",
+        "Plantations variées",
+        "9 trous techniques + 9 trous plus larges"
       ],
-      "notable_holes": [
-        {
-          "hole": 1,
-          "par": null,
-          "description": "Green atteignable au drive"
-        },
-        {
-          "hole": 6,
-          "par": 5,
-          "description": "Dogleg gauche — jouable en PAR 4"
-        }
-      ],
-      "difficulty_note": "Difficulté non perceptible immédiatement — greens surélevés et mouvementés exigent jeu précis aux fers et putting soigné"
-    },
-    "pratique": {
-      "title": "Espace d'Entraînement",
-      "facilities": [
-        "Practice de 1 hectare",
-        "8 postes couverts",
-        "Environ 20 postes extérieurs",
-        "Green d'approches",
-        "Bunker d'approches",
-        "Putting green 9 trous"
-      ]
-    },
-    "clubhouse": {
-      "title": "Club-house & Équipements",
-      "area_m2": 600,
-      "services": [
-        "Restaurant",
-        "Bar / Snacking",
-        "Salon post-partie",
-        "Espace Bridge",
-        "Pro-shop (vêtements & matériel de golf)",
-        "Vestiaires",
-        "Location de clubs",
-        "Chariot manuel",
-        "Golfette / Voiturette",
-        "Salles de conférence / Séminaire",
-        "Enseignants (professeur de golf agréé)"
+      "practice": {
+        "superficie": "Environ 1 ha",
+        "postes_couverts": 8,
+        "postes_plein_air": "une vingtaine",
+        "autres": ["Putting green", "Zone d'approche"]
+      },
+      "acces": "Ouvert toute l'année, accessible aux joueurs extérieurs comme aux membres",
+      "liste_trous": [
+        { "numero": 1, "par": 4, "hcp": 16 },
+        { "numero": 2, "par": 4, "hcp": 5 },
+        { "numero": 3, "par": 4, "hcp": 6 },
+        { "numero": 4, "par": 4, "hcp": 13 },
+        { "numero": 5, "par": 3, "hcp": 18 },
+        { "numero": 6, "par": 5, "hcp": 10 },
+        { "numero": 7, "par": 4, "hcp": 3 },
+        { "numero": 8, "par": 5, "hcp": null },
+        { "numero": 9, "par": 3, "hcp": 11 },
+        { "numero": 10, "par": 4, "hcp": 7 },
+        { "numero": 11, "par": 4, "hcp": 12 },
+        { "numero": 12, "par": 4, "hcp": 8 },
+        { "numero": 13, "par": 4, "hcp": 17 },
+        { "numero": 14, "par": 3, "hcp": 4 },
+        { "numero": 15, "par": 5, "hcp": null },
+        { "numero": 16, "par": 3, "hcp": 15 },
+        { "numero": 17, "par": 5, "hcp": 9 },
+        { "numero": 18, "par": 4, "hcp": 14 }
       ]
     },
     "restaurant": {
-      "title": "Restaurant",
-      "url": "https://www.golfclubduforez.com/copie-de-restaurant-2",
-      "phone": "04 77 38 41 68",
-      "description": "Restaurant convivial au sein du club-house de 600 m²",
-      "highlights": [
-        "Nouvelle carte régulièrement renouvelée",
-        "Bar convivial",
-        "Formule snacking disponible",
-        "Ouvert aux golfeurs et non-golfeurs",
-        "Salon propice aux discussions post-partie"
-      ]
+      "title": "Restaurant Au Fil du Green",
+      "url": "https://www.golfclubduforez.com/restaurant",
+      "nom": "Au Fil du Green",
+      "description": "Cuisine traditionnelle, de saison et de qualité. Terrasse avec vue sur les greens.",
+      "horaires": "Ouvert 7j/7 dès 7h30 du matin",
+      "acces": "Ouvert aux personnes extérieures au golf",
+      "telephone": ["06.73.84.68.97", "07.61.11.32.15"],
+      "menu_url": "https://www.golfclubduforez.com/_files/ugd/387371_c1a6aac5bf0e4c22932800d9cc363f23.pdf"
+    },
+    "coaching": {
+      "title": "Coaching",
+      "url": "https://www.golfclubduforez.com/coaching",
+      "coach": "Xavier Bretin",
+      "philosophie": "Adapter l'enseignement au niveau, aux objectifs et aux capacités de chacun pour des progrès durables.",
+      "public": ["Enfants", "Adultes débutants", "Joueurs confirmés", "Seniors"],
+      "technologie": ["TrackMan (analyse swing, trajectoire, vitesse, angle de lancement)"],
+      "initiation_gratuite": true,
+      "description_initiation": "Découverte du golf sans engagement : premiers swings, parcours, matériel, ambiance du club."
     },
     "tarifs": {
-      "title": "Tarifs 2026",
-      "url": "https://www.golfclubduforez.com/copie-de-ouverture/",
-      "note": "Page de tarifs disponible sur le site officiel — dernière mise à jour : 2026",
-      "categories": [
-        "Green fee visiteurs",
-        "Cotisations membres",
-        "Tarifs practice",
-        "Location de matériel",
-        "Séminaires et événements privés"
+      "title": "Les Tarifs 2026",
+      "url": "https://www.golfclubduforez.com/nos-tarifs",
+      "note": "Les tarifs 2026 sont disponibles sous forme d'image sur le site (non extractibles en texte).",
+      "licence_avantages": [
+        "Jouer sur tous les parcours homologués",
+        "Participer aux compétitions",
+        "Suivi officiel de son index",
+        "Bénéficier de l'encadrement et des animations du club"
       ],
-      "reservation_note": "Être à jour de sa cotisation 2026 pour effectuer des réservations en ligne"
-    },
-    "biodiversite": {
-      "title": "Biodiversité",
-      "url": "https://www.golfclubduforez.com/biodiversite",
-      "certification": "FFGolf Biodiversité — Niveau Argent",
-      "date_obtained": "Automne 2024",
-      "distinction": "Premier golf du département de la Loire (42) à obtenir cette certification",
-      "actions": [
-        "Gestion raisonnée et durable des espaces naturels",
-        "Préservation de la faune et flore locale sur 40 hectares",
-        "Visites pédagogiques en voiturette pour les scolaires",
-        "Participation aux Journées Portes Ouvertes FFGolf pour la Biodiversité 2024",
-        "Initiations gratuites au golf dans le cadre de la sensibilisation"
-      ]
-    },
-    "equipes": {
-      "title": "Nos Équipes",
-      "url": "https://www.golfclubduforez.com/nos-equipes",
-      "staff": {
-        "president": "CHOULET Jean-Michel",
-        "pro": {
-          "name": "DUFFOURD Grégory",
-          "phone": "06 29 71 40 26",
-          "title": "Professeur de Golf"
-        }
-      },
-      "club_info": {
-        "legal_form": "Association Sportive loi 1901",
-        "members_count": "Environ 430 membres",
-        "advantage": "Effectif maîtrisé — grande facilité de jeu préservée"
-      },
-      "teams": [
-        "Équipe de compétition hommes",
-        "Équipe de compétition femmes",
-        "Amicale des Séniors",
-        "École de golf (jeunes)"
-      ]
+      "dons": "L'association accepte les dons ouvrant droit à une réduction d'impôt de 66% du montant versé, dans la limite de 20% du revenu imposable."
     },
     "competitions": {
-      "title": "Compétitions & Agenda",
-      "pages": [
-        { "label": "Visiteurs 2025", "url": "/visiteurs" },
-        { "label": "Agenda", "url": "/agenda" },
-        { "label": "Palmarès", "url": "/palmares" },
-        { "label": "Compétitions 2024 (archives)", "url": "/competitions-2024" },
-        { "label": "Compétitions 2023 (archives)", "url": "/competitions-2023" },
-        { "label": "Compétitions 2020 (archives)", "url": "/competitions-2020" }
+      "title": "Compétitions & Calendrier 2026",
+      "url": "https://www.golfclubduforez.com/agenda-1",
+      "total_evenements": 83,
+      "periode": "Février — Novembre 2026",
+      "types": [
+        "Compétition de classement stableford",
+        "Compétition 9 trous",
+        "Compétition Srixon",
+        "Seniors scramble",
+        "Seniors stableford",
+        "Ladies",
+        "Gentlemen",
+        "Interclubs seniors",
+        "Grands tournois (multi-jours)"
       ],
-      "competition_types": [
-        "Stableford",
-        "Classement sur 9 trous",
-        "Interclubs hommes et femmes",
-        "Seniors du Forez — TGV — ASGRA",
-        "Voyages Seniors du Forez",
-        "Compétitions privées entreprises"
+      "grands_tournois": [
+        { "nom": "Mid Amateurs", "dates": ["2026-03-28", "2026-03-29"] },
+        { "nom": "Grand Prix Seniors", "dates": ["2026-05-23", "2026-05-24"] },
+        { "nom": "Open de Police", "dates": ["2026-06-18", "2026-06-19", "2026-06-20"] },
+        { "nom": "Grand Prix de la Loire", "dates": ["2026-08-28", "2026-08-29", "2026-08-30"] },
+        { "nom": "Vert for Ever", "dates": ["2026-09-11", "2026-09-12", "2026-09-13"] },
+        { "nom": "Trophée REVES", "dates": ["2026-09-19"] },
+        { "nom": "Finale Srixon", "dates": ["2026-10-17"] },
+        { "nom": "Compétition Beaujolais", "dates": ["2026-11-21"] }
       ]
     },
-    "seniors": {
-      "title": "Séniors 2025",
-      "url": "https://www.golfclubduforez.com/nos-seniors",
-      "calendar_name": "Calendrier Amicale des Seniors",
-      "activities": [
-        "Seniors du Forez — TGV — ASGRA",
-        "Interclubs Seniors du Forez",
-        "Voyages Seniors du Forez",
-        "Compétitions Stableford séniors"
-      ]
-    },
-    "contact": {
-      "title": "Contact",
-      "url": "https://www.golfclubduforez.com/copie-de-accueil",
-      "address": "342 impasse du Golf, 42210 Craintilleux",
-      "phone": "04 77 30 86 85",
-      "email": "golfclubduforez@orange.fr",
-      "hours": "8h30 - 18h30",
-      "sections_on_page": [
-        "Coordonnées complètes",
-        "Tarifs",
-        "Revue de presse"
-      ]
+    "services": {
+      "title": "Les Services",
+      "url": "https://www.golfclubduforez.com/nos-services",
+      "hebergement": {
+        "description": "Offres partenaires hébergement alliant calme et bien-être pour des séjours reposants.",
+        "url": "https://www.golfclubduforez.com/hebergement"
+      },
+      "region": {
+        "description": "Niché entre les monts du Forez et les gorges de la Loire, territoire 4 saisons.",
+        "url": "http://www.rendezvousenforez.com"
+      }
     }
   },
   "seo_analysis": {
@@ -231,49 +223,48 @@
       "golf Craintilleux",
       "golf Loire 42",
       "golf 18 trous Saint-Étienne",
-      "golf Auvergne-Rhône-Alpes",
-      "golf Michel Gayon",
+      "Au Fil du Green restaurant golf",
+      "coaching golf TrackMan Loire",
       "green fee Forez"
     ],
     "unique_selling_points": [
-      "1er golf certifié FFGolf Biodiversité Argent du département 42 (automne 2024)",
-      "Parcours varié : 9 trous techniques + 9 trous larges",
-      "Situation idéale : 25 km de Saint-Étienne, 60 km de Lyon",
-      "Club convivial à taille humaine (~430 membres, grande facilité de jeu)",
-      "Club-house 600 m² avec restaurant, bar, pro-shop complet",
-      "Espace d'entraînement complet (practice 1 ha, putting green 9 trous)",
-      "Séminaires et événements d'entreprise possibles"
+      "Premier parcours 18 trous de la Loire (ouvert 1986)",
+      "1er golf certifié FFGolf Biodiversité Argent du département 42",
+      "Restaurant Au Fil du Green — 7j/7 dès 7h30, ouvert à tous",
+      "Coaching avec Xavier Bretin + technologie TrackMan",
+      "Initiation gratuite au golf",
+      "83 compétitions au calendrier 2026",
+      "Situation idéale : 25 km de Saint-Étienne",
+      "Réservation en ligne via netgolf",
+      "Club convivial à taille humaine (350-400 membres)"
     ]
   },
   "redesign_recommendations": {
     "structure": [
-      "Page d'accueil moderne avec hero vidéo/photo du parcours",
-      "Section parcours interactive avec carte des 18 trous",
-      "Page tarifs claire avec tableau de prix et réservation en ligne",
-      "Section biodiversité — mettre en avant la certification Argent",
-      "Calendrier des compétitions filtrable",
-      "Page restaurant avec menu en ligne",
-      "Galerie photo moderne",
-      "Section équipe avec photos du pro et du staff",
-      "Blog/actualités remplaçant la newsletter PDF"
+      "Page d'accueil avec hero photo/vidéo du parcours et des monts du Forez",
+      "Mise en avant des avis Google en page d'accueil",
+      "Section parcours avec carte interactive des 18 trous (par, HCP)",
+      "Page restaurant 'Au Fil du Green' avec menu PDF intégré et réservation",
+      "Page coaching avec présentation de Xavier Bretin et TrackMan",
+      "Calendrier 2026 filtrable par type (seniors, srixon, interclubs…)",
+      "Page tarifs 2026 claire avec CTA réservation (netgolf)",
+      "Page biodiversité valorisant la certification FFGolf Argent",
+      "Galerie vidéos (page 'En Vidéos' existante)"
     ],
     "modern_features": [
-      "Réservation de tee-time en ligne",
-      "Application mobile / PWA",
-      "Météo en temps réel sur le parcours",
-      "Tableau des scores en ligne",
-      "Newsletter email (remplacement PDF)",
-      "Carte interactive Google Maps intégrée",
-      "Avis Google intégrés",
-      "Instagram feed pour la galerie",
-      "Chat en ligne pour les réservations",
-      "Espace membres connecté"
+      "Réservation tee-time en ligne (déjà via forez.l.netgolf.fr)",
+      "Météo temps réel sur le parcours",
+      "Feed Instagram (@golfduforez) intégré",
+      "Newsletter email (remplacement)",
+      "Carte Google Maps intégrée",
+      "Intégration avis Google Maps",
+      "Menu restaurant en PDF téléchargeable (lien direct)"
     ],
     "design_direction": {
-      "colors": "Vert golf, blanc, tons naturels (bois, terre)",
-      "typography": "Moderne, lisible, élégante",
-      "imagery": "Photos haute qualité du parcours, des étangs, de la biodiversité",
-      "mood": "Nature, sport, convivialité, excellence locale"
+      "colors": "Vert golf, blanc, tons naturels (bois, terre, eau des étangs)",
+      "typography": "Moderne, élégante, très lisible",
+      "imagery": "Photos haute qualité du parcours, des monts du Forez, de la terrasse du restaurant, des étangs",
+      "mood": "Nature préservée, sport, convivialité, excellence locale"
     }
   }
 }
