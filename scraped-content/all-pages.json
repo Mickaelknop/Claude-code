@@ -1,0 +1,123 @@
+[
+  {
+    "url": "https://www.golfclubduforez.com/",
+    "title": "Accueil — Golf Club du Forez",
+    "description": "Golf Club du Forez — Parcours 18 trous à Craintilleux (Loire), à 25 km de Saint-Étienne.",
+    "headings": [
+      { "level": "h1", "text": "Golf Club du Forez" }
+    ],
+    "navigation": [
+      { "text": "Accueil", "href": "/" },
+      { "text": "Réservations", "href": "/reservations" },
+      { "text": "Notre Nouveau Pro", "href": "/notre-pro" },
+      { "text": "Restaurant", "href": "/copie-de-restaurant-2" },
+      { "text": "Newsletter 01/26", "href": "/newsletter" },
+      { "text": "Tarifs 2026", "href": "/tarifs" },
+      { "text": "Biodiversité", "href": "/biodiversite" },
+      { "text": "Nos Équipes", "href": "/nos-equipes" },
+      { "text": "Comité de la Loire", "href": "/comite-loire" },
+      { "text": "Contact", "href": "/copie-de-accueil" },
+      { "text": "Visiteurs 2025", "href": "/visiteurs" },
+      { "text": "Agenda", "href": "/agenda" }
+    ],
+    "contact": {
+      "address": "342 impasse du Golf, 42210 Craintilleux",
+      "phone": "04 77 30 86 85",
+      "email": "golfclubduforez@orange.fr",
+      "hours": "8h30 - 17h"
+    },
+    "mainContent": "Golf Club du Forez — Bienvenue sur le site officiel du Golf Club du Forez, situé à Craintilleux dans la Loire. Notre parcours 18 trous dessiné par Michel Gayon s'étend sur 40 hectares dans la plaine du Forez. Premier golf du département certifié FFGolf Biodiversité Argent (automne 2024).",
+    "scrapedAt": "2026-03-14T17:00:00Z",
+    "scrapingMethod": "web-search-aggregation"
+  },
+  {
+    "url": "https://www.golfclubduforez.com/copie-de-ouverture/",
+    "title": "Tarifs 2023 — Golf Club du Forez",
+    "description": "Tarifs green fee, cotisations et services du Golf Club du Forez — 342 impasse du golf, 42210 Craintilleux",
+    "headings": [
+      { "level": "h1", "text": "Tarifs" },
+      { "level": "h2", "text": "Green Fee" },
+      { "level": "h2", "text": "Cotisations" },
+      { "level": "h2", "text": "Practice" }
+    ],
+    "mainContent": "Page des tarifs du Golf Club du Forez. Inclut les green fees visiteurs, les cotisations membres, et les tarifs des services annexes (practice, location de matériel). Mise à jour régulière — consulter la page Tarifs 2026 pour les derniers tarifs en vigueur.",
+    "scrapedAt": "2026-03-14T17:00:00Z",
+    "scrapingMethod": "web-search-aggregation"
+  },
+  {
+    "url": "https://www.golfclubduforez.com/copie-de-restaurant-2",
+    "title": "Restaurant — Golf Club du Forez",
+    "description": "Découvrez le restaurant du Golf Club du Forez — nouvelle carte, bar, snacking.",
+    "headings": [
+      { "level": "h1", "text": "Notre Restaurant" },
+      { "level": "h2", "text": "Notre Carte" },
+      { "level": "h2", "text": "Réservation" }
+    ],
+    "contact": {
+      "phone": "04 77 38 41 68"
+    },
+    "mainContent": "Venez découvrir notre nouvelle carte préparée par notre chef. Le restaurant du Golf Club du Forez vous accueille dans une ambiance conviviale au sein du club-house de 600 m². Bar, snacking et repas complets disponibles. Ouvert aux golfeurs et aux non-golfeurs.",
+    "scrapedAt": "2026-03-14T17:00:00Z",
+    "scrapingMethod": "web-search-aggregation"
+  },
+  {
+    "url": "https://www.golfclubduforez.com/copie-de-accueil",
+    "title": "Contact — Golf Club du Forez",
+    "description": "Coordonnées, horaires et accès au Golf Club du Forez à Craintilleux.",
+    "headings": [
+      { "level": "h1", "text": "Contact" },
+      { "level": "h2", "text": "Coordonnées" },
+      { "level": "h2", "text": "Tarifs" },
+      { "level": "h2", "text": "Revue de presse" }
+    ],
+    "contact": {
+      "address": "342 impasse du Golf, 42210 Craintilleux",
+      "phone": "04 77 30 86 85",
+      "email": "golfclubduforez@orange.fr",
+      "hours": "8h30 - 18h30"
+    },
+    "mainContent": "Page de contact du Golf Club du Forez. Retrouvez toutes les coordonnées : adresse (342 impasse du Golf, 42210 Craintilleux), téléphone (04 77 30 86 85), email (golfclubduforez@orange.fr). Horaires d'accueil : 8h30 à 18h30. La page inclut également un résumé des tarifs et une revue de presse.",
+    "scrapedAt": "2026-03-14T17:00:00Z",
+    "scrapingMethod": "web-search-aggregation"
+  },
+  {
+    "url": "https://www.golfclubduforez.com/nos-seniors",
+    "title": "Séniors 2025 — Golf Club du Forez",
+    "description": "Calendrier Amicale des Seniors du Golf Club du Forez — compétitions et voyages 2024-2025.",
+    "headings": [
+      { "level": "h1", "text": "Séniors 2025" },
+      { "level": "h2", "text": "Calendrier Amicale des Seniors 2024" },
+      { "level": "h2", "text": "Seniors du Forez - TGV - ASGRA" },
+      { "level": "h2", "text": "Interclubs Seniors du Forez" },
+      { "level": "h2", "text": "Voyages Seniors du Forez" }
+    ],
+    "mainContent": "Calendrier et résultats de l'Amicale des Seniors du Golf Club du Forez. Compétitions Seniors du Forez-TGV-ASGRA, Interclubs-Voyages Seniors du Forez, compétitions Stableford. Retrouvez les dates, départs et résultats des compétitions seniors.",
+    "scrapedAt": "2026-03-14T17:00:00Z",
+    "scrapingMethod": "web-search-aggregation"
+  },
+  {
+    "url": "https://www.golfclubduforez.com/agenda",
+    "title": "Agenda — Golf Club du Forez",
+    "description": "Agenda et calendrier des événements du Golf Club du Forez.",
+    "headings": [
+      { "level": "h1", "text": "Agenda" }
+    ],
+    "mainContent": "Calendrier des compétitions, événements et activités du Golf Club du Forez. Retrouvez toutes les dates des tournois, compétitions interclubs, événements club et initiations.",
+    "scrapedAt": "2026-03-14T17:00:00Z",
+    "scrapingMethod": "web-search-aggregation"
+  },
+  {
+    "url": "https://www.golfclubduforez.com/copie-de-trou-1",
+    "title": "Le Parcours — Golf Club du Forez",
+    "description": "Découvrez les 18 trous du parcours du Golf Club du Forez — par 70, 5754 m, slope 126.",
+    "headings": [
+      { "level": "h1", "text": "Le Parcours 18 trous" },
+      { "level": "h2", "text": "Trou 1" },
+      { "level": "h2", "text": "Trou 2" },
+      { "level": "h2", "text": "Règles et étiquette" }
+    ],
+    "mainContent": "Navigation dans les 18 trous du Golf Club du Forez. Parcours de 5 754 mètres, par 70, slope 126, conçu par l'architecte Michel Gayon. 40 hectares, 4 étangs, greens surélevés. Rappel des règles d'étiquette : respecter les règles, remettre les bunkers en état, réparer les pitch marks sur les greens, ne pas rouler avec les voiturettes sur les buttes de green.",
+    "scrapedAt": "2026-03-14T17:00:00Z",
+    "scrapingMethod": "web-search-aggregation"
+  }
+]

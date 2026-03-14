@@ -1,0 +1,94 @@
+{
+  "siteUrl": "https://www.golfclubduforez.com",
+  "siteName": "Golf Club du Forez",
+  "totalPages": 7,
+  "scrapedAt": "2026-03-14T17:00:00Z",
+  "scrapingMethod": "Web search aggregation (direct HTTP access restricted — proxy blocklist)",
+  "note": "Le scraping direct a été bloqué par les restrictions réseau de l'environnement. Le contenu a été collecté via des recherches web agrégées depuis plusieurs sources publiques.",
+  "pages": [
+    {
+      "url": "https://www.golfclubduforez.com/",
+      "title": "Accueil — Golf Club du Forez",
+      "headingsCount": 1,
+      "imagesCount": 0
+    },
+    {
+      "url": "https://www.golfclubduforez.com/copie-de-ouverture/",
+      "title": "Tarifs 2023 — Golf Club du Forez",
+      "headingsCount": 3,
+      "imagesCount": 0
+    },
+    {
+      "url": "https://www.golfclubduforez.com/copie-de-restaurant-2",
+      "title": "Restaurant — Golf Club du Forez",
+      "headingsCount": 2,
+      "imagesCount": 0
+    },
+    {
+      "url": "https://www.golfclubduforez.com/copie-de-accueil",
+      "title": "Contact — Golf Club du Forez",
+      "headingsCount": 3,
+      "imagesCount": 0
+    },
+    {
+      "url": "https://www.golfclubduforez.com/nos-seniors",
+      "title": "Séniors 2025 — Golf Club du Forez",
+      "headingsCount": 5,
+      "imagesCount": 0
+    },
+    {
+      "url": "https://www.golfclubduforez.com/agenda",
+      "title": "Agenda — Golf Club du Forez",
+      "headingsCount": 1,
+      "imagesCount": 0
+    },
+    {
+      "url": "https://www.golfclubduforez.com/copie-de-trou-1",
+      "title": "Le Parcours — Golf Club du Forez",
+      "headingsCount": 3,
+      "imagesCount": 0
+    }
+  ],
+  "keyFindings": {
+    "contact": {
+      "address": "342 impasse du Golf, 42210 Craintilleux",
+      "phone": "04 77 30 86 85",
+      "restaurant_phone": "04 77 38 41 68",
+      "email": "golfclubduforez@orange.fr"
+    },
+    "club": {
+      "founded": 1983,
+      "opened": 1986,
+      "members": "~430",
+      "legal_form": "Association loi 1901"
+    },
+    "course": {
+      "holes": 18,
+      "par": 70,
+      "length_m": 5754,
+      "slope": 126,
+      "architect": "Michel Gayon",
+      "area_ha": 40
+    },
+    "certifications": [
+      "FFGolf Biodiversité — Argent (automne 2024, 1er en Loire)"
+    ],
+    "navigation_sections": [
+      "Accueil",
+      "Réservations",
+      "Notre Nouveau Pro",
+      "Restaurant",
+      "Newsletter 01/26",
+      "Tarifs 2026",
+      "Biodiversité",
+      "Nos Équipes",
+      "Comité de la Loire",
+      "Contact",
+      "Visiteurs 2025",
+      "Agenda",
+      "Compétitions (archives)",
+      "Palmarès",
+      "Séniors"
+    ]
+  }
+}
