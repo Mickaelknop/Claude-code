@@ -173,18 +173,27 @@ p  { font-size: 1rem; color: var(--text-body); }
 }
 .nav-logo {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  gap: .65rem;
   line-height: 1.1;
+  text-decoration: none;
 }
+.nav-logo img {
+  height: 48px;
+  width: auto;
+  flex-shrink: 0;
+}
+.nav-logo-text { display: flex; flex-direction: column; }
 .nav-logo span:first-child {
   font-family: var(--font-serif);
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--white);
   white-space: nowrap;
 }
 .nav-logo span:last-child {
-  font-size: .7rem;
+  font-size: .65rem;
   color: var(--gold);
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -318,7 +327,7 @@ p  { font-size: 1rem; color: var(--text-body); }
   inset: 0;
   background:
     linear-gradient(to bottom, rgba(10,30,20,.55) 0%, rgba(10,30,20,.35) 50%, rgba(10,30,20,.7) 100%),
-    url('https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=1800&auto=format&fit=crop') center/cover no-repeat;
+    url('https://static.wixstatic.com/media/387371_26c7c901bfdd4149a35a639506bc62d5~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90/DJI_20250517141117_0506_D%20Bis_JPG.jpg') center/cover no-repeat;
 }
 .hero-content {
   position: relative;
@@ -673,7 +682,7 @@ p  { font-size: 1rem; color: var(--text-body); }
 .resto-hero {
   background:
     linear-gradient(to bottom, rgba(10,25,15,.5) 0%, rgba(10,25,15,.75) 100%),
-    url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&auto=format&fit=crop') center/cover;
+    url('https://static.wixstatic.com/media/387371_27f8ec5871f249b782c4076780216dae~mv2.jpg/v1/fill/w_1600,h_900,al_c,q_90/387371_27f8ec5871f249b782c4076780216dae~mv2.jpg') center/cover;
 }
 .resto-info-grid {
   display: grid;
